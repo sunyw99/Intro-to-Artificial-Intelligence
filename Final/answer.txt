@@ -1,0 +1,100 @@
+***Student ID: 517370910213
+
+*** 1 Bayes Net
+*** 1.1 Small Bayes Net
+*** 1.1.1
+P(A)P(B|A)P(C|A)P(D|A)P(E|A,B)P(G|E)P(H|E)
+*** 1.1.2
+25
+*** 1.1.3
+6 6 6 3 3 3
+
+*** 1.2 Conditional Independences
+*** 1.1.1
+No BFAH
+*** 1.1.2
+No FAHM
+*** 1.1.3
+No BFKHD
+*** 1.1.4
+No CLQMH
+*** 1.1.5
+No LGFK LGSR
+*** 1.1.6
+FHKLQ
+
+*** 2 Markov Models
+*** 2.1
+31/72 31/72 5/36
+*** 2.2
+3/7 3/7 1/7
+*** 2.3
+0.39 0.61
+*** 2.4
+[Add your answer here]
+*** 2.5
+[Add your answer here]
+*** 2.6
+[Add your answer here]
+*** 2.7
+[Add your answer here]
+
+*** 3 Markov Models
+*** 3.1 Bayes Rule
+*** 3.1.1
+3.28
+*** 3.1.2
+22.90
+*** 3.1.3
+42.75
+*** 3.1.4
+34.35
+
+*** 3.2 Learning an HMM
+*** 3.2.1
+(1/6 3/5 2/3 ; 1/2 2/5 0 ; 1/3 0 1/3)
+*** 3.2.2
+(5/6 1/6 ; 1/2 1/2 ; 1/3 2/3)
+*** 3.2.3
+(2/9 1/2 1/2 ; 4/9 3/8 1/6 ; 1/3 1/8 1/3)
+*** 3.2.4
+(3/4 1/4 ; 1/2 1/2 ; 2/5 3/5)
+
+
+*** 3.3 Perceptron
+*** 3.3.1
+1 0.5 -1
+*** 3.3.2
+2 4 4
+*** 3.3.3
+4
+
+*** 4 Logic
+*** 4.1 Propositional Logic
+*** 4.1.1
+(A\/B)/\(A\/B\/C)/\(A\/B\/D)/\(~A\/~C\/D)/\(~A\/~B\/~C\/D)
+*** 4.1.2
+yes
+*** 4.1.3
+no
+*** 4.1.4
+no
+
+*** 4.2 First Order Logic
+*** 4.2.1
+E x square(x) /\ medium(x)
+*** 4.2.2
+A x square(x) => medium(x)
+*** 4.2.3
+E x square(x) /\ ~medium(x)
+*** 4.2.4
+E x,y triangle(x) /\ triangle(y) /\ ~(x=y)
+*** 4.2.5
+
+*** 4.2.6
+[Add your answer here]
+*** 4.2.7
+A x square(x) /\ small (x) => E y square(y) /\ large(y) /\ behindof(x,y)
+*** 4.2.8
+A x E y (triangle(x) \/ square(x) \/ pentagon(x)) /\ (triangle(y) \/ square(y) \/ pentagon(y)) /\ behindof(y,x) => large(x)
+*** 4.2.9
